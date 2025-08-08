@@ -1,3 +1,4 @@
 [submodule "RIOT"]
 	path = RIOT
-	url = git@github.com:IsikcanYilmaz/RIOT.git
+  url = git@github.com:IsikcanYilmaz/RIOT.git
+  branch = CCNL_WORK
