@@ -13,9 +13,9 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
-#include "demo_button.h"
-#include "demo_neopixels.h"
-#include "onboard_leds.h"
+/*#include "demo_button.h"*/
+/*#include "demo_neopixels.h"*/
+/*#include "onboard_leds.h"*/
 #include "demo_throttlers.h"
 
 #include "iperf.h"
@@ -28,6 +28,7 @@ static msg_t _main_msg_queue[MAIN_QUEUE_SIZE];
 int main(void)
 {
 	msg_init_queue(_main_msg_queue, MAIN_QUEUE_SIZE);
+	char line_buf[SHELL_DEFAULT_BUFSIZE];
 	shell_run(NULL, line_buf, SHELL_DEFAULT_BUFSIZE);
 	return 0;
 }

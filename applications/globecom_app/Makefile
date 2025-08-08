@@ -56,21 +56,21 @@ USEMODULE += ztimer
 USEMODULE += auto_init_wdt_thread
 
 EXTERNAL_MODULE_DIRS += $(CURDIR)/../../submodules/
-USEMODULE += button
+# USEMODULE += button
 # ifeq ("seeedstudio-xiao-nrf52840", $(BOARD))
 # USEMODULE += neopixel
 # endif
-USEMODULE += onboard_leds
+# USEMODULE += onboard_leds
 USEMODULE += throttler
-USEMODULE += udp_stress
+# USEMODULE += udp_stress
 USEMODULE += caching_iperf
 # USEMODULE += udp_multihop
 
 
 # CFLAGS += -I$(EXTERNAL_MODULE_DIRS)/common/
-CFLAGS += -I$(EXTERNAL_MODULE_DIRS)/button/
-CFLAGS += -I$(EXTERNAL_MODULE_DIRS)/neopixel/
-CFLAGS += -I$(EXTERNAL_MODULE_DIRS)/onboard_leds/
+# CFLAGS += -I$(EXTERNAL_MODULE_DIRS)/button/
+# CFLAGS += -I$(EXTERNAL_MODULE_DIRS)/neopixel/
+# CFLAGS += -I$(EXTERNAL_MODULE_DIRS)/onboard_leds/
 CFLAGS += -I$(EXTERNAL_MODULE_DIRS)/throttler/
 CFLAGS += -I$(EXTERNAL_MODULE_DIRS)/caching_iperf/
 
