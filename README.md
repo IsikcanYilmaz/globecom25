@@ -19,25 +19,18 @@ This work uses a custom version of RIOT OS, particularly the IPv6 forwarding flo
 - Please use the following Bibtex for any citations:
 ```
 @INPROCEEDINGS{Yilm2512:Practical,
-
 AUTHOR="Isikcan Yilmaz and Jonas Schulz and Siddharth Das and Ricardo J. B. Pousa
 and Leonardo Gonzalez and Juan A. Cabrera and Patrick Seeling and Frank
 H.P. Fitzek",
-
 TITLE="A Practical Implementation and Evaluation of {In-Network} Caching on
 Constrained {IEEE} {802.15.4} {IoT} Hardware",
-
 BOOKTITLE="2025 IEEE Globecom Workshops (GC Wkshps): Workshop on Towards Integrated
 IoT and Ground-Air-Space Networks: Bridging Global Connectivity (GC Wkshps
 2025-IGASN BGC)",
-
 ADDRESS="Taipei, Taiwan",
-
 PAGES="5.86",
-
 KEYWORDS="In-Network Caching; Internet of Things; 802.15.4; Hardware Testbed;
 Wireless Sensor Network",
-
 }
 
 ```
