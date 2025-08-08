@@ -17,7 +17,7 @@ This work uses a custom version of RIOT OS, particularly the IPv6 forwarding flo
 
 # Citing our work
 - Please use the following Bibtex for any citations:
-- `@INPROCEEDINGS{Yilm2512:Practical,
+```@INPROCEEDINGS{Yilm2512:Practical,
 
 AUTHOR="Isikcan Yilmaz and Jonas Schulz and Siddharth Das and Ricardo J. B. Pousa
 and Leonardo Gonzalez and Juan A. Cabrera and Patrick Seeling and Frank
@@ -37,6 +37,6 @@ PAGES="5.86",
 KEYWORDS="In-Network Caching; Internet of Things; 802.15.4; Hardware Testbed;
 Wireless Sensor Network",
 
-}`
+}```
 
 
