@@ -14,3 +14,39 @@ This work uses a custom version of RIOT OS, particularly the IPv6 forwarding flo
 
 # How to run
 - `automator.py` TODO
+
+# Citing our work
+- Please use the following Bibtex for any citations:
+- @INPROCEEDINGS{Yilm2512:Practical,
+AUTHOR="Isikcan Yilmaz and Jonas Schulz and Siddharth Das and Ricardo J. B. Pousa
+and Leonardo Gonzalez and Juan A. Cabrera and Patrick Seeling and Frank
+H.P. Fitzek",
+TITLE="A Practical Implementation and Evaluation of {In-Network} Caching on
+Constrained {IEEE} {802.15.4} {IoT} Hardware",
+BOOKTITLE="2025 IEEE Globecom Workshops (GC Wkshps): Workshop on Towards Integrated
+IoT and Ground-Air-Space Networks: Bridging Global Connectivity (GC Wkshps
+2025-IGASN BGC)",
+ADDRESS="Taipei, Taiwan",
+PAGES="5.86",
+KEYWORDS="In-Network Caching; Internet of Things; 802.15.4; Hardware Testbed;
+Wireless Sensor Network",
+ABSTRACT="This paper investigates the benefits of in-network caching in a multi-hop
+network consisting of constrained embedded devices, on a realistic hardware
+testbed based on the IEEE 802.15.4 radio technology. In-network caching is
+a promising approach to aid multi-hop Wireless Sensor Networks (WSNs),
+where intermediate nodes not only forward data, but also store it for later
+requests. 
+We implement an application that sends a fixed-size file from a designated
+source to a destination node across multiple relay nodes that cache and
+forward content. Our evaluation focuses on end-to-end service performance,
+considering the total transmission time and the number of transmissions
+within the network required to transmit the entire file. 
+Despite employing a basic probabilistic caching strategy and operating
+under limited memory constraints, our results demonstrate at least a 10\%
+improvement in transfer time and at least a 20\% reduction in the total
+number of transmissions. These findings highlight the practical value of
+even lightweight caching mechanisms in improving communication overhead in
+resource-constrained IoT networks."
+}
+
+
