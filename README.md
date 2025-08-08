@@ -17,7 +17,7 @@ This work uses a custom version of RIOT OS, particularly the IPv6 forwarding flo
 
 # Citing our work
 - Please use the following Bibtex for any citations:
-- @INPROCEEDINGS{Yilm2512:Practical,
+- `@INPROCEEDINGS{Yilm2512:Practical,
 AUTHOR="Isikcan Yilmaz and Jonas Schulz and Siddharth Das and Ricardo J. B. Pousa
 and Leonardo Gonzalez and Juan A. Cabrera and Patrick Seeling and Frank
 H.P. Fitzek",
@@ -47,6 +47,6 @@ improvement in transfer time and at least a 20\% reduction in the total
 number of transmissions. These findings highlight the practical value of
 even lightweight caching mechanisms in improving communication overhead in
 resource-constrained IoT networks."
-}
+}`
 
 
