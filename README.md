@@ -4,6 +4,8 @@ This is the home to the source code of the firmware and helper scripts to config
 
 This work uses a custom version of RIOT OS, particularly the IPv6 forwarding flow is modified. Said custom RIOT OS is included in this repo as a submodule. Please run `git submodule update --recursive --init` before anything else.
 
+I am still cleaning up this repo so please be patient. Feel free to write to me for any questions or comments.
+
 # How to build
 - For ease of compiling for different boards and flashing, one can use our helper program `makescript.sh`. 
 - Usage: in the application subfolder, `./makescript.sh --board iotlab-m3 --fitiot` will compile the program for the Fit-IoT iotlab-m3 board, which is the board used in our paper. The compiled binary will be in the `./bin/` folder.
